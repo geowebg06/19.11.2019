@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Study Spaces in Vienna</title>
+  <style>
+    html,
+    body,
+    #map {
+      font-family: sans-serif;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    #q {
+      position: absolute;
+        top: 80px;
+        right: 20px;
+        width: 250px;
+        background-color: azure;
+        z-index: 10;
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #e6f2ff;
+    }
+
+    h1,    .h1 {      font-size: 2.5rem;
+    }
+
+    h2,    .h2 {      font-size: 2rem;
+    }
+
+    h3,    .h3 {      font-size: 1.75rem;
+    }
+
+    h4,    .h4 {      font-size: 1.5rem;
+    }
+
+    h5,    .h5 {      font-size: 1.25rem;
+    }
+
+    h6,    .h6 {      font-size: 1rem;
+    }
+
+    a {
+      color: #0059b3;
+      font-size: 14px;
+      text-decoration: none;
+      background-color: transparent;
+    }
+
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .navbar {
+      position: relative;
+      padding: 0.5rem 1rem;
+    }
+
+    .navbar>.container,
+
+    .navbar>.container-fluid {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .navbar-nav {
+      display: flex;
+      list-style: none;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: .9rem;
+      padding-left: .9rem;
+    }
+  </style>
+</head>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+          <a class="top-right" > <img src="../bild/ifip_logo.png" alt=""></a>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+              <ul class="nav navbar-nav menu_nav ml-auto">
+                  <li class="nav-item active"><a class="nav-link" href="../start_content_grp.htm">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="../team.htm">Team</a></li>
+    <li class="nav-item"><a class="nav-link" href="../projekt.htm">Projektbeschreibung</a></li>
+    <li class="nav-item"><a class="nav-link" href="index.html">Karte</a></li>
+    <li class="nav-item"><a class="nav-link" href="../datenbank.htm">Datenbank</a></li>
+                  <li class="nav-item"><a class="nav-link" href="../intranet/intranet_start.htm">Intranet</a></li>
+    <li class="nav-item"><a class="nav-link" href="../impressum.htm">Impressum</a></li>
+          </div> 
+      </div>
+  </nav>
+</header>
+
+<body>
+  <div id="map">
+    <input id="q" name="q" type="text" placeholder="Enter address here..."></input>
+  </div>
+</body>
+
+</html>

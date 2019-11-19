@@ -1,0 +1,49 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "name": "John Cena"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.34405136108398, 48.21237717584662]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "David Hasselhoff"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.361732482910156, 48.22072698210351]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Benjamin Blümchen"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.37091636657715, 48.21289192931539]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Heino"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.34714126586914, 48.20459804907699]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Silvia Knackal"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.36885643005371, 48.204941270761715]
+        }
+    }]
+}

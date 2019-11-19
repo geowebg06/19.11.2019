@@ -1,0 +1,48 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "name": "Gabi",
+            "location": "Flughafen"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.56150072813034,
+            48.1187956657118]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "CrisZuhause",
+            "location": "Wohnort"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.33941650390625,
+			48.2005364178392]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Martin",
+            "location": "Home sweet home"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.31844162940979,
+			48.19759725496827]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Marko",
+            "location": "Das Phantom der Oper"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.369084417819973,
+			48.202937324167976]
+        }
+    }]
+}
